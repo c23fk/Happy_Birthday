@@ -1,0 +1,32 @@
+.Balloon1 {
+    height: 100px;
+    width: auto;
+    position: absolute;
+    transition: 3s;
+    top: 85vh;
+    padding-left:40px;
+    padding-right:40px;
+}
+.Balloon2 {
+    height: 100px;
+    width: auto;
+    position: absolute;
+    transition: 3s;
+    top: 0vh;
+    padding-left:40px;
+    padding-right:40px;
+}
+body {
+    background: black;
+    background-repeat: repeat-x;
+    background-image: url(https://media.giphy.com/media/peAFQfg7Ol6IE/giphy.gif);
+    background-position-y: 0vh;
+    background-position-x: center;
+}
+#p {
+    font-size: 35px;
+    color: lightblue;
+    position: absolute;
+    left: 40vw;
+    top: 50vh;
+}
